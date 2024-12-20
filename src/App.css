@@ -1,9 +1,12 @@
 body {
-  font-family: "Courier New", Courier, monospace;
-  font-size: large;
-  background-color: #f0f0f0;
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  background-color: #0c0c0c;
   margin: 50px;
   padding: 0;
+  color: white;
 }
 
 h1 {
@@ -18,17 +21,17 @@ h1 {
 }
 
 .node {
-  background-color: #007bff;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   padding: 10px 15px;
-  margin: 8px;
+  margin: 7px;
   border-radius: 7px;
 }
 .cursor-node {
-  background-color: red;
-  color: white;
+  background-color: rgb(255, 0, 255);
+  color: rgb(255, 255, 255);
   padding: 10px 15px;
-  margin: 8px;
+  margin: 7px;
   border-radius: 7px;
 }
 
@@ -68,5 +71,6 @@ h1 {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #ffffff;
+  color: black;
 }
